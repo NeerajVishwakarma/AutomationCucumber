@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="test1">
+<test name="checking Test1">
+<classes>
+<class name="com.test.gmail.login"><methods>
+<parameter name="login" value="visu.neeraj"></parameter>
+<parameter name="password" value="incorrect"></parameter>
+<include name="loginTest"></include></methods></class>
+</classes>
+</test>
+</suite>
